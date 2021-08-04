@@ -18,7 +18,7 @@ class CustomBottomBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-              height: 50, width: 50, child: Image.asset('/logo.jpeg')),
+              height: 50, width: 50, child: Image.network('https://i.imgur.com/LLTwwzQ.jpg')),
           Container(
             height: 50,
             width: 100,

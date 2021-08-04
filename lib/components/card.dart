@@ -21,7 +21,7 @@ class CustomCard extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Container(
-              child: Image.asset(
+              child: Image.network(
             imageList[imageid],
             fit: BoxFit.fill,
           )),

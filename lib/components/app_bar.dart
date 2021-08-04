@@ -17,7 +17,7 @@ class CustomAppBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-              height: 100, width: 100, child: Image.asset('logo.jpeg')),
+              height: 100, width: 100, child: Image.network('https://i.imgur.com/LLTwwzQ.jpg')),
           Container(
             height: 100,
             width: 100,
