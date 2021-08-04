@@ -45,17 +45,15 @@ class _HomeScreenState extends State<HomeScreen> {
             decoration: BoxDecoration(
                 image: DecorationImage(
                     image: AssetImage(imageCarousel[_pos]), fit: BoxFit.cover)),
-            child: Expanded(
-              child: SingleChildScrollView(
-                scrollDirection: Axis.vertical,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
-                    CustomAppBar(),
-                    NewsComponent(),
-                    CustomBottomBar(),
-                  ],
-                ),
+            child: SingleChildScrollView(
+              scrollDirection: Axis.vertical,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  CustomAppBar(),
+                  NewsComponent(),
+                  CustomBottomBar(),
+                ],
               ),
             )));
   }
